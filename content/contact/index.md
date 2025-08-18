@@ -1,6 +1,6 @@
 # Contact the Author
 
-[< Back Home](/)
+[< Back Home](/StaticSiteGenerator)
 
 Give me a call anytime to chat about Tolkien!
 
