@@ -25,7 +25,7 @@ class TextNode:
 def text_node_to_html(text_node):
     match text_node.text_type:
         case TextType.Plain_text:
-            return LeafNode(None, text_node.text)
+            return LeafNode( None, text_node.text)
         case TextType.Bold:
             return LeafNode("b", text_node.text)
         case TextType.Italic:
@@ -38,4 +38,3 @@ def text_node_to_html(text_node):
             return LeafNode("img", "", {"src": text_node.url, "alt": text_node.text})
         case _:
             raise Exception(f"Unknown text type: {text_node.text_type}")
-
