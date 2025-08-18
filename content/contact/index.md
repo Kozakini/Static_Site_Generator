@@ -2,7 +2,8 @@
 
 [< Back Home](/StaticSiteGenerator)
 
-Give me a call anytime to chat about Tolkien!
+Give me a call anytime to chat about Tolkien! thanks!
+
 
 `555-555-5555`
 
