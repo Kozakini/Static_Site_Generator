@@ -3,10 +3,11 @@ import shutil
 
 def copy_static():
     home = "static"
-    dest = "public"
-
+    dest = "docs"
+    if not os.path.exists(dest):
+        os.mkdir("docs")
     shutil.rmtree(dest)
-    os.mkdir("public")
+    os.mkdir("docs")
     copy_all(home, dest)
 
 def copy_all(home, dest):
